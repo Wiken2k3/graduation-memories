@@ -3,7 +3,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 
 const geist = Geist({
-  subsets: ["latin", "vietnamese"],
+  subsets: ["latin"],
   variable: "--font-geist",
 });
 
