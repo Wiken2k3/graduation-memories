@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 Memory Wall
 
-## Getting Started
+> A minimal, Apple-inspired graduation memory experience built with Next.js.
 
-First, run the development server:
+---
+
+## ✨ Overview
+
+**Memory Wall** is a digital scrapbook that preserves graduation memories through a clean, emotional, and editorial interface.
+
+Each “friend” is represented as a Polaroid card — containing:
+- Portrait image
+- Personal message
+- Photo gallery
+- Lightbox experience
+
+This project focuses on **emotion over complexity**, inspired by Apple’s design language.
+
+---
+
+## 🧠 Concept
+
+Instead of building a traditional gallery website, Memory Wall is designed as:
+
+> A place where memories feel like physical objects.
+
+Each interaction mimics:
+- flipping through a photo album
+- reading a handwritten letter
+- opening a memory drawer
+
+---
+
+## 🧱 Features
+
+### 🖼 Memory Wall
+- Polaroid-style card grid
+- Smooth hover interactions
+- Live search filtering
+- Result counter (X / Y)
+
+### 🔍 Search Experience
+- Instant filtering by name
+- Clean minimalist input
+- Soft focus interaction
+
+### 👤 Friend Detail Page
+Each friend page includes:
+- Hero section (portrait + name highlight)
+- Personal message (letter-style layout)
+- Photo gallery (editorial grid)
+
+### 🖼 Lightbox Gallery
+- Fullscreen image viewer
+- Keyboard navigation (← → ESC)
+- Click outside to close
+- Image download support
+- Counter (01 / 12 style)
+
+---
+
+## 🎨 Design System
+
+Inspired by Apple editorial / iOS Photos:
+
+### Colors
+- Background: `#F5F1E6`
+- Surface: `#FFFDF8`
+- Primary: `#7298C7`
+- Accent: `#F3D98F`
+- Border: `#ECE6DA`
+
+### Design Principles
+- Soft shadows instead of harsh borders
+- Large whitespace (breathing space)
+- Minimal UI noise
+- Subtle hover motion
+- Typography-first layout
+
+---
+
+## ⚙️ Tech Stack
+
+- ⚡ Next.js (App Router)
+- ⚛️ React + TypeScript
+- 🎨 Tailwind CSS
+- 🖼 Next/Image Optimization
+
+---
+
+## 📁 Project Structure
+app/
+features/
+components/
+data/
+public/
+
+
+### Key modules:
+- `features/landing` → Home page (Hero, Memory Wall)
+- `features/friend` → Friend detail page system
+- `hooks/useLightbox` → gallery interaction logic
+- `data/friends.ts` → mock data source
+
+---
+
+## 💡 Philosophy
+
+> “A website doesn’t always need to be complex — sometimes it just needs to feel alive.”
+
+This project prioritizes:
+- Emotion
+- Spacing
+- Memory storytelling
+- Gentle interaction
+
+---
+
+## 🖼 Preview
+
+> Add screenshots here
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open:
+```
+http://localhost:3000
+```
+## 📌 Future Improvements
+Swipe gesture (mobile gallery)
+Page transition animations
+Background ambient music
+Parallax scrolling hero
+Personalized friend pages (AI-generated messages)
+🧑‍💻 Author
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with care as a graduation memory project.
