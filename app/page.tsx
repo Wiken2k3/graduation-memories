@@ -1,4 +1,4 @@
-import Hero from "@/features/landing/Hero";
+import Hero from "@/features/landing/Hero/Hero";
 import Story from "@/features/landing/Story";
 import MemoryWall from "@/features/landing/MemoryWall";
 

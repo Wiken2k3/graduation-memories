@@ -14,12 +14,12 @@ export default function Container({
       className={`
         mx-auto
         w-full
-        max-w-[1440px]
+        max-w-[1480px]
 
-        px-5
+        px-6
         sm:px-8
-        md:px-10
-        lg:px-14
+        md:px-12
+        lg:px-16
         xl:px-20
         2xl:px-24
 

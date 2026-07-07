@@ -10,86 +10,88 @@ export interface Friend {
 export const friends: Friend[] = [
   {
     id: 1,
-    slug: "nguyen-minh",
-    name: "Nguyễn Minh",
-    image: "/images/demo.webp",
+    slug: "Ba",
+    name: "Ba",
+    image: "/polaroids/ba.webp",
     message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học.
 
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
-      "/images/demo.webp",
-      "/images/demo.webp",
-      "/images/demo.webp",
+      "/polaroids/ba.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
     ],
   },
   {
     id: 2,
-    slug: "tran-long",
-    name: "Trần Long",
-    image: "/images/demo.webp",
+    slug: "huy",
+    name: "Gia Huy",
+    image: "/polaroids/dghuy.webp",
     message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học.
 
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
-      "/images/demo.webp",
-      "/images/demo.webp",
-      "/images/demo.webp",
+      "/polaroids/dghuy.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
     ],
   },
   {
     id: 3,
-    slug: "pham-ha",
-    name: "Phạm Hà",
-    image: "/images/demo.webp",
+    slug: "bphuong",
+    name: "Bích Phương",
+    image: "/polaroids/bphuong.webp",
     message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học.
 
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
-      "/images/demo.webp",
-      "/images/demo.webp",
-      "/images/demo.webp",
+      "/polaroids/bphuong.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
     ],
   },
   {
     id: 4,
-    slug: "gia-huy",
-    name: "Gia Huy",
-    image: "/images/demo.webp",
+    slug: "judy",
+    name: "Judy",
+    image: "/polaroids/judy.webp",
     message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học.
 
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
-      "/images/demo.webp",
-      "/images/demo.webp",
-      "/images/demo.webp",
+      "/polaroids/judy.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
     ],
   },
   {
     id: 5,
-    slug: "lan-anh",
-    name: "Lan Anh",
-    image: "/images/demo.webp",
+    slug: "nhu-nguyen",
+    name: "Quỳnh Như",
+    image: "/polaroids/nhunguyen.webp",
     message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học.
 
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
-      "/images/demo.webp",
-      "/images/demo.webp",
-      "/images/demo.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
     ],
   },
   {
     id: 6,
-    slug: "quoc-tuan",
-    name: "Quốc Tuấn",
-    image: "/images/demo.webp",
+    slug: "khanh-vinh",
+    name: "Khánh Vinh",
+    image: "/polaroids/vinhnguyen.webp",
     message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học.
 
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
-      "/images/demo.webp",
-      "/images/demo.webp",
-      "/images/demo.webp",
+      "/polaroids/vinhnguyen.webp",
+      "/polaroids/nhunguyen.webp",
+      "/polaroids/nhunguyen.webp",
     ],
   },
 ];

@@ -66,3 +66,14 @@ img{
   border: 1px solid rgba(39, 39, 39, 0.06);
   border-radius: 28px;
 }
+.hero-noise {
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: .03;
+
+  background-image: url("/images/pre1.webp");
+  background-size: 200px;
+}
