@@ -4,71 +4,92 @@ export default function HeroContent() {
   return (
     <div
       className="
-      order-2
-      lg:order-1
+        order-2
 
-      max-w-2xl
+        w-full
+
+        mx-auto
+
+        max-w-xl
+
+        text-center
+
+        lg:order-1
+
+        lg:mx-0
+
+        lg:text-left
       "
     >
+
       <p
         className="
-        text-xs
+          uppercase
 
-        font-semibold
+          tracking-[0.45em]
 
-        uppercase
+          text-[#7298C7]
 
-        tracking-[0.35em]
+          text-xs
 
-        text-[#7298C7]
+          font-semibold
         "
       >
         Graduation 2026
       </p>
 
+
       <h1
         className="
-        mt-6
+          mt-6
 
-        text-5xl
+          text-5xl
 
-        font-semibold
+          sm:text-6xl
 
-        leading-[1.05]
+          lg:text-7xl
 
-        sm:text-6xl
+          font-semibold
 
-        xl:text-7xl
+          leading-none
         "
       >
         Chào cậu.
       </h1>
 
+
       <p
         className="
-        mt-8
+          mt-8
 
-        max-w-lg
+          text-lg
 
-        text-lg
+          leading-9
 
-        leading-9
-
-        text-neutral-600
+          text-neutral-600
         "
       >
-        Cảm ơn vì đã là một phần
-        của những năm tháng thanh xuân.
-
+        Một món quà nhỏ.
         <br />
-        <br />
-
-        Đây là món quà nhỏ mình dành riêng cho cậu.
+        Một lời cảm ơn.
       </p>
 
-      <div className="mt-12">
+
+      <div
+        className="
+          mt-12
+
+          flex
+
+          justify-center
+
+          lg:justify-start
+        "
+      >
         <ScrollButton />
       </div>
+
+
     </div>
   );
 }

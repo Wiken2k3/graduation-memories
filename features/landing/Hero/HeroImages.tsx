@@ -6,124 +6,167 @@ export default function HeroImages() {
   return (
     <div
       className="
-      order-1
-      lg:order-2
+        order-1
 
-      relative
+        relative
 
-      flex
+        flex
 
-      justify-center
+        justify-center
+
+        lg:order-2
       "
     >
-      {/* Polaroid trái */}
+
+      {/* Floating Card Left */}
 
       <div
         className="
-        absolute
+          absolute
 
-        left-0
+          left-0
 
-        top-10
+          top-10
 
-        hidden
+          hidden
 
-        lg:block
+          md:block
         "
       >
         <FloatingCard
           image="/images/hero/pre1.webp"
-          className="w-40 rotate-[-10deg]"
+          className="
+            w-40
+            rotate-[-10deg]
+          "
         />
       </div>
 
-      {/* Polaroid phải */}
+
+      {/* Floating Card Right */}
 
       <div
         className="
-        absolute
+          absolute
 
-        right-0
+          right-0
 
-        bottom-12
+          bottom-12
 
-        hidden
+          hidden
 
-        xl:block
+          md:block
         "
       >
         <FloatingCard
           image="/images/hero/pre2.webp"
-          className="w-40 rotate-[8deg]"
+          className="
+            w-40
+            rotate-[8deg]
+          "
         />
       </div>
 
-      {/* Main Card */}
+
+      {/* Main Graduation Card */}
 
       <div
         className="
-        relative
-
-        w-full
-
-        max-w-[340px]
-
-        sm:max-w-[400px]
-
-        lg:max-w-[460px]
-
-        rounded-[34px]
-
-        paper
-
-        p-5
-
-        shadow-[0_30px_80px_rgba(0,0,0,.12)]
-        "
-      >
-        <div
-          className="
           relative
 
-          aspect-[4/5]
+          w-full
 
-          overflow-hidden
+          max-w-[280px]
 
-          rounded-3xl
+          sm:max-w-[340px]
+
+          md:max-w-[400px]
+
+          lg:max-w-[470px]
+
+          rounded-[34px]
+
+          paper
+
+          p-5
+
+          shadow-[0_30px_80px_rgba(0,0,0,.12)]
+        "
+      >
+
+        <div
+          className="
+            relative
+
+            aspect-[4/5]
+
+            overflow-hidden
+
+            rounded-3xl
           "
         >
+
           <Image
             src="/images/hero/pre4.webp"
+
             alt="Graduation portrait"
+
             fill
+
             priority
-            sizes="(max-width:768px)100vw,460px"
-            className="object-cover"
+
+            sizes="
+              (max-width:640px) 280px,
+              (max-width:768px) 340px,
+              (max-width:1024px) 400px,
+              470px
+            "
+
+            className="
+              select-none
+
+              object-cover
+            "
           />
+
         </div>
+
 
         <div className="pt-6">
 
           <p
             className="
-            text-xs
+              text-xs
 
-            uppercase
+              uppercase
 
-            tracking-[0.3em]
+              tracking-[0.3em]
 
-            text-[#7298C7]
+              text-[#7298C7]
             "
           >
             Graduation 2026
           </p>
 
-          <h3 className="mt-3 text-xl font-semibold">
+
+          <h3
+            className="
+              mt-3
+
+              text-xl
+
+              font-semibold
+            "
+          >
             Quốc Tuấn
           </h3>
 
         </div>
+
+
       </div>
+
+
     </div>
   );
 }

@@ -1,33 +1,103 @@
 export default function HeroBackground() {
   return (
     <>
-      <div className="absolute inset-0">
+      {/* Background */}
+      <div className="absolute inset-0 overflow-hidden">
+        {/* Blue Glow */}
+        <div
+          className="
+            absolute
+            -left-40
+            -top-40
+            h-[760px]
+            w-[760px]
+            rounded-full
+            bg-[#7298C7]/15
+            blur-[160px]
+          "
+        />
 
-        <div className="absolute -top-56 right-[-180px] h-[650px] w-[650px] rounded-full bg-[#7298C7]/15 blur-[120px]" />
+        {/* Warm Glow */}
+        <div
+          className="
+            absolute
+            -right-40
+            -bottom-40
+            h-[760px]
+            w-[760px]
+            rounded-full
+            bg-[#F3D98F]/20
+            blur-[170px]
+          "
+        />
 
-        <div className="absolute bottom-[-240px] left-[-200px] h-[520px] w-[520px] rounded-full bg-[#F3D98F]/25 blur-[120px]" />
+        {/* Soft Center Blend */}
+        <div
+          className="
+            absolute
+            left-1/2
+            top-1/2
+            h-[520px]
+            w-[520px]
+            -translate-x-1/2
+            -translate-y-1/2
+            rounded-full
+            bg-white/30
+            blur-[180px]
+          "
+        />
 
-        <div className="absolute left-20 top-20 h-64 w-64 rounded-full bg-[#7298C7]/10 blur-[100px]" />
-
-        <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-[#F3D98F]/20 blur-[100px]" />
-
+        {/* Vignette */}
+        <div
+          className="
+            absolute
+            inset-0
+            bg-[radial-gradient(circle_at_center,transparent_45%,rgba(0,0,0,0.03)_100%)]
+          "
+        />
       </div>
 
+      {/* Editorial Grid */}
       <div
         className="
-        absolute
-        inset-0
+          absolute
+          inset-0
 
-        opacity-[0.03]
+          opacity-[0.025]
 
-        [background-image:linear-gradient(#000_1px,transparent_1px),linear-gradient(90deg,#000_1px,transparent_1px)]
-
-        [background-size:48px_48px]
+          [background-image:linear-gradient(#000_1px,transparent_1px),linear-gradient(90deg,#000_1px,transparent_1px)]
+          [background-size:48px_48px]
         "
       />
 
-      {/* Noise layer (nếu đã có noise.png) */}
-      <div className="hero-noise" />
+      {/* Soft Top Gradient */}
+      <div
+        className="
+          absolute
+          inset-x-0
+          top-0
+          h-56
+          bg-gradient-to-b
+          from-white/35
+          to-transparent
+        "
+      />
+
+      {/* Soft Bottom Gradient */}
+      <div
+        className="
+          absolute
+          inset-x-0
+          bottom-0
+          h-56
+          bg-gradient-to-t
+          from-[#F5F1E6]/60
+          to-transparent
+        "
+      />
+
+      {/* Paper / Noise Texture */}
+      <div className="hero-noise absolute inset-0 opacity-[0.045]" />
     </>
   );
 }

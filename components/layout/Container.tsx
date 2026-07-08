@@ -13,15 +13,28 @@ export default function Container({
     <div
       className={`
         mx-auto
-        w-full
-        max-w-[1480px]
 
-        px-6
+        w-full
+
+        max-w-[1500px]
+
+        px-5
+
         sm:px-8
-        md:px-12
-        lg:px-16
+
+        md:px-10
+
+        lg:px-14
+
         xl:px-20
+
         2xl:px-24
+
+        py-10
+
+        sm:py-14
+
+        lg:py-28
 
         ${className}
       `}

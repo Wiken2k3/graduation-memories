@@ -1,42 +1,57 @@
 import Image from "next/image";
 
-interface Props{
-    image:string;
-    className?:string;
+interface Props {
+  image: string;
+  className?: string;
 }
 
 export default function FloatingCard({
-image,
-className=""
-}:Props){
+  image,
+  className = "",
+}: Props) {
+  return (
+    <div
+      className={`
+        absolute
 
-return(
+        w-40
 
-<div
-className={`
-absolute
-w-40
-paper
-p-3
-shadow-xl
-animate-[float_6s_ease-in-out_infinite]
-${className}
-`}
->
+        paper
 
-<div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
+        p-3
 
-<Image
-fill
-src={image}
-alt=""
-className="object-cover"
-/>
+        shadow-xl
 
-</div>
+        animate-[float_6s_ease-in-out_infinite]
 
-</div>
+        ${className}
+      `}
+    >
 
-)
+      <div
+        className="
+          relative
 
+          aspect-[4/5]
+
+          overflow-hidden
+
+          rounded-2xl
+        "
+      >
+
+        <Image
+          fill
+          src={image}
+          alt=""
+          sizes="160px"
+          className="
+            object-cover
+          "
+        />
+
+      </div>
+
+    </div>
+  );
 }

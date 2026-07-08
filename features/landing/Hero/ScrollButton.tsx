@@ -1,78 +1,115 @@
 "use client";
 
+import { motion } from "framer-motion";
+
+
 export default function ScrollButton() {
+
   const handleClick = () => {
+
     const section = document.getElementById("memory-wall");
 
     if (!section) return;
+
 
     const top =
       section.getBoundingClientRect().top +
       window.scrollY -
       40;
 
+
     window.scrollTo({
       top,
       behavior: "smooth",
     });
+
   };
 
+
   return (
-    <button
+
+    <motion.button
       type="button"
+
       onClick={handleClick}
+
       aria-label="Cuộn tới Memory Wall"
+
+      animate={{
+        y: [0, 8, 0],
+      }}
+
+      transition={{
+        duration: 2.5,
+        repeat: Infinity,
+        ease: "easeInOut",
+      }}
+
       className="
-      group
+        group
 
-      inline-flex
+        inline-flex
 
-      items-center
+        items-center
 
-      gap-3
+        gap-3
 
-      rounded-full
 
-      border
+        rounded-full
 
-      border-[#D7D1C7]
+        bg-[#272727]
 
-      bg-white/80
 
-      px-7
+        px-8
 
-      py-4
+        py-5
 
-      font-medium
 
-      backdrop-blur
+        text-white
 
-      transition-all
+        font-medium
 
-      duration-500
 
-      hover:-translate-y-1
+        shadow-lg
 
-      hover:border-[#7298C7]
 
-      hover:shadow-xl
+        transition-all
+
+        duration-700
+
+
+        hover:-translate-y-1
+
+        hover:bg-[#7298C7]
+
+        hover:shadow-2xl
+
+
+        active:scale-[0.98]
       "
     >
-      <span>Đi thẳng tới món quà</span>
+
+      <span>
+        Đi tới món quà
+      </span>
+
 
       <span
         className="
-        text-lg
+          text-lg
 
-        transition-transform
+          transition-transform
 
-        duration-500
+          duration-700
 
-        group-hover:translate-y-1
+          group-hover:translate-y-1
         "
       >
         ↓
       </span>
-    </button>
+
+
+    </motion.button>
+
   );
 }
