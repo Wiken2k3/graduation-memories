@@ -13,7 +13,7 @@ export const friends: Friend[] = [
     slug: "Ba",
     name: "Ba",
     image: "/polaroids/ba.webp",
-    message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học.
+    message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học!
 
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
