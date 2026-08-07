@@ -16,32 +16,18 @@ export default function GalleryCard({
   return (
     <button
       onClick={() => onOpen(index)}
-      className="
-      group
-      relative
-      aspect-square
-      overflow-hidden
-      rounded-3xl
-      border
-      border-[#ECE6DA]
-      shadow-lg
-      transition-all
-      duration-500
-      hover:-translate-y-2
-      "
+      className="group relative overflow-hidden rounded-[24px] border border-[#E9E2D4] transition duration-300 hover:-translate-y-1 hover:border-[#7298C7]/50"
+      aria-label={`Mở ảnh ${index + 1}`}
     >
-      <Image
-        src={image}
-        alt=""
-        fill
-        sizes="33vw"
-        className="
-        object-cover
-        transition
-        duration-700
-        group-hover:scale-105
-        "
-      />
+      <div className="aspect-[4/5] w-full overflow-hidden rounded-[24px]">
+        <Image
+          src={image}
+          alt={`Ảnh kỷ niệm ${index + 1}`}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="object-cover transition duration-500 group-hover:scale-105"
+        />
+      </div>
     </button>
   );
 }

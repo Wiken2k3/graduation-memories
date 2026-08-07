@@ -59,7 +59,7 @@ export default function HeroImages() {
         "
       >
         <FloatingCard
-          image="/images/hero/pre2.webp"
+          image="/images/hero/quangnon.jpg"
           className="
             w-40
             rotate-[8deg]

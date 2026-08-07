@@ -8,68 +8,38 @@ interface Props {
 
 export default function FriendHero({ friend }: Props) {
   return (
-    <section className="py-24">
+    <section className="py-16 sm:py-20">
       <Container className="max-w-6xl">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-24">
-          {/* IMAGE */}
-          <div
-            className="
-              relative
-              aspect-[4/5]
-              overflow-hidden
-              rounded-[26px]
-              border
-              border-[#ECE6DA]
-              shadow-[0_25px_80px_rgba(0,0,0,.08)]
-            "
-          >
-            <Image
-              src={friend.image}
-              alt={friend.name}
-              fill
-              sizes="50vw"
-              className="object-cover"
-            />
+        <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:gap-16">
+          <div className="relative overflow-hidden rounded-[28px] border border-[#E9E2D4] bg-[#FFFDF8] shadow-[0_10px_30px_rgba(0,0,0,0.06)]">
+            <div className="aspect-[4/5] sm:aspect-[11/14] relative">
+              <Image
+                src={friend.image}
+                alt={`Ảnh của ${friend.name}`}
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 40vw"
+                className="object-cover"
+              />
+            </div>
           </div>
 
-          {/* CONTENT */}
-          <div className="flex flex-col justify-center">
-            {/* EYEBROW */}
+          <div className="flex flex-col justify-center gap-6">
             <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#7298C7]">
               GRADUATION 2026
             </p>
 
-            {/* TITLE */}
-            <h1
-              className="
-                mt-5
-                text-4xl
-                font-semibold
-                leading-tight
-                sm:text-5xl
-                lg:text-6xl
-              "
-            >
-              Xin chào,
-              <br />
-              <span className="text-[#7298C7]">{friend.name}</span>
-            </h1>
+            <div>
+              <h1 className="text-4xl font-semibold leading-tight text-[#272727] sm:text-5xl">
+                Xin chào,
+                <br />
+                <span className="text-[#7298C7]">{friend.name}</span>.
+              </h1>
+            </div>
 
-            {/* DESCRIPTION */}
-            <p
-              className="
-                mt-10
-                text-lg
-                leading-9
-                sm:text-xl
-                text-neutral-600
-              "
-            >
-              Đây là một góc nhỏ mình dành riêng cho cậu.
+            <p className="max-w-xl text-lg leading-9 text-[#444] sm:text-xl">
+              Một góc nhỏ mình dành riêng cho cậu.
             </p>
-
-            {/* DIVIDER */}
-            <div className="mt-10 h-px w-24 bg-[#7298C7]" />
           </div>
         </div>
       </Container>

@@ -3,10 +3,11 @@ import { friends } from "@/data/friends";
 
 import Container from "@/components/layout/Container";
 
-import FriendHero from "@/features/friend/FriendHero";
 import FriendMessage from "@/features/friend/FriendMessage";
 import FriendGallery from "@/features/friend/FriendGallery";
+import FriendPasswordGate from "@/features/friend/FriendPasswordGate";
 import BackHomeButton from "@/features/friend/BackButton";
+import { getAuthenticatedFriendSlug } from "@/lib/friendAuth";
 
 interface Props {
   params: Promise<{
@@ -23,15 +24,26 @@ export default async function FriendPage({ params }: Props) {
     notFound();
   }
 
+  const authenticatedSlug = await getAuthenticatedFriendSlug();
+  const isAuthorized = authenticatedSlug === slug;
+
+  if (!isAuthorized) {
+    return (
+      <main className="min-h-screen bg-[#F5F1E6]">
+        <Container className="py-6 sm:py-8">
+          <BackHomeButton />
+        </Container>
+
+        <FriendPasswordGate slug={slug} friendName={friend.name} />
+      </main>
+    );
+  }
+
   return (
     <main className="min-h-screen bg-[#F5F1E6]">
-      {/* TOP NAV / BACK BUTTON LAYER */}
-      <Container className="py-10">
+      <Container className="py-6 sm:py-8">
         <BackHomeButton />
       </Container>
-
-      {/* HERO */}
-      <FriendHero friend={friend} />
 
       {/* MESSAGE */}
       <FriendMessage friend={friend} />

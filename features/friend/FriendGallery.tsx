@@ -15,35 +15,18 @@ export default function FriendGallery({ friend }: Props) {
   const lightbox = useLightbox(friend.gallery.length);
 
   return (
-    <section className="pb-40">
-      <Container>
-        {/* TITLE */}
-        <h2
-          className="
-            mb-16
-            text-center
-            text-3xl
-            sm:text-4xl
-            lg:text-5xl
-            font-semibold
-          "
-        >
-          Những khoảnh khắc của chúng ta
-        </h2>
+    <section className="pb-24 sm:pb-28">
+      <Container className="max-w-6xl">
+        <div className="mb-10 sm:mb-14">
+          <h2 className="text-3xl font-semibold leading-tight text-[#272727] sm:text-4xl">
+            Những khoảnh khắc của chúng ta
+          </h2>
+        </div>
 
-        {/* GRID */}
-        <div
-          className="
-            grid
-            grid-cols-1
-            gap-8
-            md:grid-cols-2
-            xl:grid-cols-3
-          "
-        >
+        <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
           {friend.gallery.map((image, index) => (
             <GalleryCard
-              key={image}
+              key={`${image}-${index}`}
               image={image}
               index={index}
               onOpen={lightbox.open}
@@ -52,7 +35,6 @@ export default function FriendGallery({ friend }: Props) {
         </div>
       </Container>
 
-      {/* LIGHTBOX */}
       <Lightbox
         images={friend.gallery}
         current={lightbox.current}
