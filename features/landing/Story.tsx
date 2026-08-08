@@ -5,7 +5,7 @@ const sections = [
   "Bốn năm.",
   "À hong phải là 5 năm.",
   "Rất nhiều kỷ niệm đáng nhớ.",
-  "Có những bạn, tớ chỉ gặp một lần.",
+  "Có những bạn, tớ chỉ gặp một vài lần.",
   "Có những bạn, tớ sẽ nhớ rất lâu.",
   "Biết đâu...",
   "Cậu là một trong số đó ha.",
