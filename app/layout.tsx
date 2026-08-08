@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
+import BackgroundAudio from "@/features/ui/BackgroundAudio";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="vi">
       <body className={geist.className}>
         {children}
+        <BackgroundAudio />
       </body>
     </html>
   );

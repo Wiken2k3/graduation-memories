@@ -3,11 +3,12 @@ import PageReveal from "../../components/ui/PageReveal";
 
 const sections = [
   "Bốn năm.",
-  "Hàng nghìn kỷ niệm.",
-  "Có những người chỉ gặp một lần.",
-  "Có những người mình sẽ nhớ rất lâu.",
+  "À hong phải là 5 năm.",
+  "Rất nhiều kỷ niệm đáng nhớ.",
+  "Có những bạn, tớ chỉ gặp một lần.",
+  "Có những bạn, tớ sẽ nhớ rất lâu.",
   "Biết đâu...",
-  "Cậu là một trong số đó.",
+  "Cậu là một trong số đó ha.",
 ];
 
 

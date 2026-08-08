@@ -47,7 +47,7 @@ export default function MemoryWall() {
         <SectionTitle
           eyebrow="Memory Wall"
           title="Tìm tấm Polaroid của cậu"
-          description="Mỗi tấm ảnh là một lời cảm ơn vì đã đồng hành cùng mình trong suốt những năm đại học."
+          description="Mỗi tấm ảnh là một lời cảm ơn vì đã đồng hành cùng mình trong suốt những năm đại học. Cậu có thể dùng thanh tìm kiếm ở đây để tìm nhanh hơn đấy."
         />
 
 
