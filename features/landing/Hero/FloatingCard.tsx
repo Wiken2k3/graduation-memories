@@ -31,27 +31,20 @@ export default function FloatingCard({
       <div
         className="
           relative
-
           aspect-[4/5]
-
           overflow-hidden
-
           rounded-2xl
         "
       >
-
         <Image
           fill
           src={image}
           alt=""
           sizes="160px"
-          className="
-            object-cover
-          "
+          loading="lazy"
+          className="object-cover"
         />
-
       </div>
-
     </div>
   );
 }

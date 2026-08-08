@@ -113,7 +113,7 @@ export default function HeroImages() {
 
             fill
 
-            priority
+            loading="lazy"
 
             sizes="
               (max-width:640px) 280px,

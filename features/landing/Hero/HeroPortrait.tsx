@@ -54,21 +54,12 @@ export default function HeroPortrait() {
             src="/images/hero/pre4.webp"
             alt=""
             fill
-            priority
-            className="
-            object-cover
-
-            transition-transform
-
-            duration-700
-
-            hover:scale-105
-            "
+            loading="eager"
+            sizes="(max-width:640px) 280px, (max-width:1024px) 340px, 430px"
+            className="object-cover"
           />
         </div>
-
       </div>
-
     </div>
   );
 }
