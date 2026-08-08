@@ -18,8 +18,6 @@ export const friends: Friend[] = [
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
       "/polaroids/ba.webp",
-      "/polaroids/nhunguyen.webp",
-      "/polaroids/nhunguyen.webp",
     ],
   },
   {
@@ -32,8 +30,6 @@ Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
       "/polaroids/dghuy.webp",
-      "/polaroids/nhunguyen.webp",
-      "/polaroids/nhunguyen.webp",
     ],
   },
   {
@@ -57,9 +53,11 @@ Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn
   Thanks for all. 💝🫶🏻`,
     gallery: [
       "/polaroids/bphuong.webp",
-      "/polaroids/nhunguyen.webp",
-      "/polaroids/nhunguyen.webp",
-      "/polaroids/nhunguyen.webp",
+      "/images/gra/bphuong/bphuong1.png",
+      "/images/gra/bphuong/bphuong2.png",
+      "/images/gra/bphuong/bphuong3.png",
+      "/images/gra/bphuong/bphuong4.png",
+      "/images/gra/bphuong/bphuong5.png",
     ],
   },
   {
@@ -67,11 +65,23 @@ Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn
     slug: "judy",
     name: "Judy",
     image: "/polaroids/judy1.webp",
-    message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học.
+    message: `Xin chào Judy ྀི 💝
 
-Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
+    Cảm ơn cậu đã dành chút thời gian đến chúc mừng tớ. Tớ biết với con gái thì để chuẩn bị cho một ngày quan trọng như thế này cũng mất khá nhiều thời gian, nên tớ thật sự rất rất biết ơn vì cậu đã đến.
+
+    Cậu biết hong, trong suốt khoảng thời gian học (mặc dù chỉ học chung một môn hoy) rồi sau đó có dịp tiếp xúc với cậu ở Social, tớ luôn cảm thấy cậu là một người bạn rất khác biệt so với những người tớ từng gặp.
+
+    Trong lớp, cậu rất tự tin. Ấn tượng đầu tiên của tớ về cậu là lúc cậu lên phát biểu. Kiểu cậu có thể thoải mái nói lên suy nghĩ của mình trước mọi người mà không quá bận tâm người khác sẽ nghĩ gì. Cảm giác như cậu có một “aura” rất riêng vậy.
+
+    Còn ngoài đời, cậu là một cô bé yêu đời, biết mình muốn gì và không chạy theo bất kỳ xu hướng nào trên mạng xã hội. Tớ thật sự rất thích tính cách đó của cậu.
+
+    Cậu với tớ cũng tốt nghiệp cùng một đợt nữa. Hi vọng chặng đường sắp tới sẽ mang đến cho cậu thật nhiều điều tốt đẹp và cậu sẽ thành công với con đường mình đã chọn nhé.
+
+    À, còn một điều nữa tớ muốn nói. Nếu một ngày nào đó cậu muốn tâm sự, hoặc đơn giản chỉ muốn nói chuyện xàm xí thôi thì đừng ngại nha. Tớ luôn sẵn sàng lắng nghe cậu, hehee.
+
+    Cảm ơn cậu vì tất cảaa. 💝`,
     gallery: [
-      "/polaroids/judy.webp",
+      "/polaroids/judy5.png",
       "/polaroids/judy2.webp",
       "/polaroids/judy3.webp",
     ],
@@ -86,8 +96,6 @@ Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
       "/polaroids/nhunguyen.webp",
-      "/polaroids/nhunguyen.webp",
-      "/polaroids/nhunguyen.webp",
     ],
   },
   {
@@ -100,7 +108,11 @@ Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
       "/polaroids/vinhnguyen.webp",
+
       "/polaroids/kvinh.webp",
+      "/images/gra/avan.png",
+      "/images/gra/avan1.png",
+      "/images/gra/avan3.png",
       "/images/gra/vinh/KV_05913.jpg",
       "/images/gra/vinh/KV_05911.jpg",
       "/images/gra/vinh/KV_05909.jpg",
@@ -177,6 +189,9 @@ Chúc cậu thành công và giữ liên lạc nhé.`,
 Chúc cậu luôn hạnh phúc và vững bước.`,
     gallery: [
       "/polaroids/pthu.webp",
+      "/images/gra/avan.png",
+      "/images/gra/avan1.png",
+      "/images/gra/avan3.png",
       "/images/gra/pthu/KV_05924.jpg",
       "/images/gra/pthu/KV_05926.jpg",
       "/images/gra/pthu/KV_05931.jpg",
@@ -207,8 +222,9 @@ Chúc cậu luôn hạnh phúc và vững bước.`,
 
     Cảm ơn cậu gấtt gất nhìuuu. 💛`,
     gallery: [
-      "/polaroids/nhunguyen.webp",
-      "/polaroids/nhunguyen.webp",
+      "/images/gra/vinhpre.png",
+      "/images/gra/amazon1.png",
+      "/images/gra/amazon2.png",
     ],
   },
   {
@@ -226,8 +242,7 @@ Chúc cậu luôn hạnh phúc và vững bước.`,
 
     Và… mãi là người Hoàng Da Rê An Ma Rít nhé. Kekeke. 🤍`,
     gallery: [
-      "/polaroids/nhunguyen.webp",
-      "/polaroids/nhunguyen.webp",
+      "/polaroids/truong.webp",
     ],
   },
 ];
