@@ -9,15 +9,25 @@ export interface Friend {
 
 export const friends: Friend[] = [
   {
+    id: 12,
+    slug: "me",
+    name: "Mẹ",
+    image: "/polaroids/me.webp",
+    message: `Mẹ là người đã luôn ở bên và tiếp thêm sức mạnh cho con trong mọi bước đi. Cảm ơn mẹ vì tất cả yêu thương và sự hy sinh vô điều kiện.`,
+    gallery: [
+      "/polaroids/me.webp",
+    ],
+  },
+  {
     id: 1,
     slug: "Ba",
     name: "Ba",
-    image: "/polaroids/ba.webp",
+    image: "/polaroids/fathe.webp",
     message: `Cảm ơn cậu vì đã đồng hành cùng mình trong suốt những năm đại học!
 
 Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn sẽ gặp lại nhau.`,
     gallery: [
-      "/polaroids/ba.webp",
+      "/polaroids/ba1.webp",
     ],
   },
   {
@@ -243,6 +253,56 @@ Chúc cậu luôn hạnh phúc và vững bước.`,
     Và… mãi là người Hoàng Da Rê An Ma Rít nhé. Kekeke. 🤍`,
     gallery: [
       "/polaroids/truong.webp",
+    ],
+  },
+  {
+    id: 13,
+    slug: "thai-tuan",
+    name: "Thái Tuấn",
+    image: "/polaroids/ttuan.webp",
+    message: `Cảm ơn Tuấn vì đã cùng chia sẻ những niềm vui và kỷ niệm trong những ngày đại học. Chúc cậu luôn vững bước và thành công.`,
+    gallery: [
+      "/polaroids/ttuan.webp",
+    ],
+  },
+  {
+    id: 14,
+    slug: "thanh-thao",
+    name: "Thanh Thảo",
+    image: "/polaroids/pii.webp",
+    message: `Cảm ơn Thảo vì sự chân thành và nụ cười luôn rạng rỡ. Chúc cậu giữ được năng lượng tích cực và bay cao trong tương lai.`,
+    gallery: [
+      "/polaroids/pii.webp",
+    ],
+  },
+  {
+    id: 15,
+    slug: "trung-hieu",
+    name: "Trung Hiếu",
+    image: "/polaroids/bon.webp",
+    message: `Cảm ơn Hiếu vì những khoảnh khắc đáng nhớ mà cậu đã góp mặt. Chúc cậu luôn khỏe mạnh và đạt được nhiều điều tốt đẹp.`,
+    gallery: [
+      "/polaroids/bon.webp",
+    ],
+  },
+  {
+    id: 16,
+    slug: "tuan-kiet",
+    name: "Tuấn Kiệt",
+    image: "/polaroids/myzon.webp",
+    message: `Cảm ơn Kiệt vì sự hỗ trợ và tinh thần đồng đội trong suốt quãng thời gian qua. Chúc cậu sớm chạm tới những mục tiêu của mình.`,
+    gallery: [
+      "/polaroids/myzon.webp",
+    ],
+  },
+  {
+    id: 17,
+    slug: "thanh-truc",
+    name: "Thanh Trúc",
+    image: "/polaroids/truc.webp",
+    message: `Cảm ơn Trúc vì những phút giây chia sẻ và nụ cười ấm áp. Chúc cậu luôn hạnh phúc và gặp nhiều may mắn.`,
+    gallery: [
+      "/polaroids/truc.webp",
     ],
   },
 ];
