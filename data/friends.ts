@@ -146,12 +146,23 @@ Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn
     slug: "anh-thu",
     name: "Anh Thư",
     image: "/polaroids/athu.webp",
-    message: `Cảm ơn Thư vì những kỷ niệm và nụ cười đã chia sẻ cùng mình.
+    message: `Hí nhô Thư ྀི
 
-Mong rằng mọi điều tốt đẹp sẽ đến với cậu sau này.`,
+Nói gì đầu tiên giờ ta. Tuấn biết Thư chắc cũng từ kỳ đầu tiên tụi mình bước chân vào đại học, lúc đó còn học online. Rồi sau đó khoảng một năm, không biết bằng một lý do gì mà tớ lại có duyên học chung với cậu thêm một môn tiếng Anh nữa.
+
+Trong lớp, Thư là một người rất tự tin. Kiểu cậu có thể thoải mái nói lên suy nghĩ của mình trước mọi người mà hong quá bận tâm người khác sẽ nghĩ gì về mình í. Tại Tứng ở ngoài khá ít nói với ngại í, nên mỗi khi gặp những bạn như vậy, tớ sẽ cảm giác cậu toát ra một cái aura gì đó rất riêng dị ấy.
+
+Nhưng nhưng nhưng, cái này quan trọng nhất nèee hí hí. Điều tớ cảm thấy biết ơn và cảm ơn cậu nhất đó là dù hiện tại cậu đang theo đuổi một hành trình mới ở nước Úc xa xôi, cậu vẫn dành chút thời gian để hỏi thăm và gửi lời chúc đến tớ. Đôi khi thật sự không cần món quà gì đâu, chỉ cần một lời chúc thôi là tớ đã rất vui rùii.
+
+Tớ thật sự rất biết ơn và cảm ơn vì cậu vẫn luôn quan tâm đến tớ. From the bottom of my heart, tớ rất rất vui và hạnh phúc khi có một người bạn như cậu ^^
+
+Hi vọng chặng đường sắp tới sẽ mang đến cho cậu thật nhiều điều tốt đẹp và cậu sẽ thành công với con đường mình đang chọn nhé.
+
+À, còn một điều nữa tớ muốn nói. Khi nào cậu dìa VN chơi thì nhớ rủ tớ nha. Có thể là đi chơi thể thao, cầu lông hay gì cũng được hết. Tớ luôn sẵn sàng đợi nhee hehehe.
+
+Cảm ơn cậu vì tất cả @gracenxg ྀི 💝`,
     gallery: [
       "/polaroids/athu.webp",
-      "/polaroids/nhunguyen.webp",
     ],
   },
   {
