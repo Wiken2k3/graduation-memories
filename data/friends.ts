@@ -146,7 +146,7 @@ Hy vọng sau này dù mỗi người một con đường nhưng chúng ta vẫn
     slug: "anh-thu",
     name: "Anh Thư",
     image: "/polaroids/athu.webp",
-    message: `Hí nhô Thư ྀི
+    message: `Hí nhô Thư ྀི — Tình bạn từ viên kẹo 🍬
 
 Nói gì đầu tiên giờ ta. Tuấn biết Thư chắc cũng từ kỳ đầu tiên tụi mình bước chân vào đại học, lúc đó còn học online. Rồi sau đó khoảng một năm, không biết bằng một lý do gì mà tớ lại có duyên học chung với cậu thêm một môn tiếng Anh nữa.
 
