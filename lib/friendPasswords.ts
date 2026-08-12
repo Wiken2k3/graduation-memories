@@ -9,7 +9,7 @@ export const friendPasswords = {
   "gia-hung": "0309",
   "phuong-thu": "1212",
   "trieu-vinh": "0305",
-  "thanh-truong": "0410",
+  "thanh-truong": "2005",
   "me": "0910",
   "thai-tuan": "ttuan@",
   "thanh-thao": "tthao@",
