@@ -166,6 +166,37 @@ Cảm ơn cậu vì tất cả @gracenxg ྀི 💝`,
     ],
   },
   {
+    id: 18,
+    slug: "Halihalo",
+    name: "Hali Halo",
+    image: "/images/gra/halihalo/halihalo3.png",
+    message: `Gửi Hải Linh aka HaliHalo 💌
+
+    Hí nhô người bạn từ cấp 3 khum thay đổi của tớ. À hongg, thực ra là có thay đổi á, thay đổi ngoại hình đồ nè. Thay đổi nữa là nữ tính, dịu dàng hơn, nói chung là siêu hợp á, phát huyy hơn nhe =)))
+
+    Còn khum thay đổi thì vẫn là cách cậu trò chuyện với tui. Drawback lại xíu nhe:
+
+    Từ những ngày lớp 11, tớ và cậu đã có duyên ngồi gần nhau, rồi cũng hay nói chuyện, hay tâm sự deep deep, rồi hay nghịch nghịch giỡn giỡn nữa. Còn thêm những lần “chửi nhau” mà được cái sau mỗi lần chửi nhau là đâu lại vào đó ha. Cậu là người mà chửi nhau với tui (lúc này là giỡn nha, hong có ý chửi thiệt âu) xong sau đó như không có gì luôn. Kiểu chửi thì chửi vậy đó, còn giận thì chắc chắn không, quên sạch. Cũng dui ha ^^
+
+    Nhắc lại tự nhiên nhớ ghê, muốn đi học lại huhuu.
+
+    Hmm, nói chứ nếu mà tui có lỡ chửi cậu hay chọc cậu quá thì nói tui nhe. Tại kiểu lâu lâu tui rảnh mới dị hoi, chứ hong có kiểu muốn làm gì để ai phải buồn hết í.
+
+    Cảm ơn cậu đã đọc những dòng này, và cảm ơn cậu vì thời gian qua đã quan tâm, chia sẻ và còn lắng nghe những lời tớ nói.
+
+    Nếu có cần gì mà tớ có thể support được thì đừng ngần ngại nhé kekekeke.
+
+    Boái boaii HaliHalo 🫶🏻`,
+    gallery: [
+      "/images/gra/halihalo/halihalo1.png",
+      "/images/gra/halihalo/halihalo2.png",
+      "/images/gra/halihalo/halihalo3.png",
+      "/images/gra/halihalo/halihalo4.png",
+      "/images/gra/halihalo/halihalo5.png",
+
+    ],
+  },
+  {
     id: 8,
     slug: "gia-hung",
     name: "Gia Hưng",

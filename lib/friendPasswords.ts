@@ -16,6 +16,9 @@ export const friendPasswords = {
   "trung-hieu": "bon@",
   "tuan-kiet": "myzon@",
   "thanh-truc": "ttruc@",
+  "Halihalo": "Halihalo",
+
+
 } as const;
 
 export type FriendPasswordSlug = keyof typeof friendPasswords;
